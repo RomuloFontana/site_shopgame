@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+header {
+    padding:10px 0;
+    background-color:rgba(0, 3, 1, 0.958);
+    color:whitesmoke;
+    
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'Grape Nuts', cursive;
+    font-weight:normal;
+}
+header nav li{
+    display:inline;
+    margin-left:10px;
+    font-size:15px;
+}
+
+header nav li a{
+    color:rgb(0, 234, 255);
+    text-decoration:none;
+    border:none;
+    
+}
+
+body,
+input,
+textarea{
+    font-family: 'EB Garamond', serif;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+/* header .container {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+} */
+
+#contato .container{
+    display:block;
+}
+
+.marcas img {
+    width:50px;
+    margin-right:10px;
+
+}
+
+.marcas li{
+    display:inline;
+    
+}
+
+.social img{
+    width:40px;
+    margin-right:10px;
+}
+
+.social li{
+    display:inline;
+}
+
+.social li a{
+    text-decoration:none;
+}
+
+section .container{
+    align-items:flex-start;
+}
+
+section{
+    padding:20px 0px;
+}
+section h2{
+    margin-bottom:10px;
+    color:rgb(0, 234, 255);
+}
+
+section p{
+    margin-bottom:10px;
+}
+.endereço p{
+    margin:-2px;
+}
+
+.loja{
+    margin-right:20px;
+}
+
+.contate-nos{
+    display:flex;
+    justify-content:space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display:block;
+    width:300px;
+    margin-bottom:8px;
+    padding:8px;
+}
+
+form textarea{
+    resize:none;
+    height:140px;
+}
+
+section h3{
+    margin-bottom:16px;
+}
+
+form button{
+    background-color: rgba(0, 3, 1, 0.958);
+    color:rgb(0, 234, 255);
+    cursor:pointer;
+}
+
+form button:hover{
+    background-color:rgb(46, 60, 64);
+}
+
+input:focus, textarea:focus{
+    outline-color:rgb(0, 234, 255);
+}
+
+footer{
+    background-color:black;
+    color:rgb(0, 234, 255);
+    padding:15px 0px;
+}
